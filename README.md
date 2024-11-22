@@ -8,10 +8,9 @@ A Vue 3 web application that displays a list of movies using the TMDB API. Users
 
 - **Discover Movies**: Browse a list of movies fetched from the TMDB API.
 - **View Details**: Click on a movie to view detailed information, including genres, country, language, and a link to its IMDb page.
-- **Favorites Management**: Add or remove movies from your favorites list.
+- **Favorites**: Add or remove movies from your favorites list.
 - **Comments**: Add comments to your favorite movies. Comments are displayed only if a movie is marked as a favorite.
 - **Sort and Search**: Sort favorite movies by title or rating and search by title.
-- **Responsive UI**: A clean and user-friendly interface with responsive design.
 
 ---
 
@@ -27,7 +26,7 @@ A Vue 3 web application that displays a list of movies using the TMDB API. Users
 ## Installation
 
 ### Prerequisites
-- [Node.js](https://nodejs.org/) installed on your machine.
+- [Node.js](https://nodejs.org/) installed.
 
 ### Steps
 1. Clone the repository:
@@ -41,7 +40,7 @@ cd goodmovies
 npm install
 ```
 
-3. Run server
+3. Run server:
 ```sh
 npm run dev
 ```
